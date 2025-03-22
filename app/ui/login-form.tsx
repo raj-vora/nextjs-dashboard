@@ -11,7 +11,6 @@ import { Button } from './button';
 import { useSearchParams } from 'next/navigation';
 import { useActionState } from 'react';
 import { authenticate } from '../lib/actions';
-import { error } from 'console';
 
 export default function LoginForm() {
   const searchParams = useSearchParams();
